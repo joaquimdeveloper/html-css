@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm,mm,in,px,pt,pc
+
+            Medidas relativas
+            em, ex, rem, Vw, vh, %
+            16px geralmente = 1em
+            recomendação total usar sempre o px e tambem em
+            */
+
+            font-size: 1em ;
+            
+            /*
+            lighter normal bold bolder
+            */
+        }    
+
+        h1 {
+             
+             /*shorthand
+             no lugar de usar todas aquelas fonte devem,os usar só uma que é essa(font: italic bolder 3em 'wok Sans', Arial, Helvetica, sans-serif ;)
+             */
+
+             font: italic bolder 3em 'wok Sans', Arial, Helvetica, sans-serif ;
+             /*sempre na ordem>> font-style > font-weight > font-size > font-family */
+        }
+
+        h2 {
+            font: bold 2m 'wok Sans';
+        }
+
+                               
+    </style>
+</head>
+<body>
+   
+   <h1>Trabalhando com fontes</h1>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores obcaecati eos consequatur sunt repudiandae et nisi iste, non voluptatum animi perspiciatis minima aliquam odit a numquam excepturi id, quasi quibusdam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quis, ratione laboriosam rerum aperiam minima a dolorem repellat tempore fugiat officiis amet et velit porro delectus alias voluptas quae labore!</p>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quidem nihil id? Repellendus dignissimos placeat, iusto incidunt accusantium assumenda, facere eum possimus omnis atque et voluptate quia cupiditate minus debitis.</p>
+   <h2>Subtítulo do exercicio</h2>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos tempore facilis ut, fuga exercitationem consequatur quia, quod expedita dolores provident perferendis accusantium eaque neque, veritatis tenetur fugiat eius aspernatur.</p>
+
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="a"> <!--tag order liste ou lista ordenada-->
+        <li>Acordar</li> <!--Entre ol e ol eu coloco li ordenação das listas tipo 1234 ou 1 A a i-->
+        <li>Ligar para o João</li>  <!--A Acordar -->
+        <li>Tomar café</li>         <!--B Ligar para o João-->
+        <li>Escovar os dentes</li>  <!-- C Tomar café-->
+        <li>Ir para Faculdade</li>  <!--D Escovar os dentes-->
+        <li>Almoçar</li>            <!--E Ir para Faculdade-->
+        <li>Ir para o trabalho</li> <!--F Almoçar-->
+        <li>Voltar para casa</li>   <!--G Ir para o trabalho-->
+        <li>Jantar</li>             <!--H Voltar para casa-->
+        <li>Dormir</li>             <!--I Jantar-->
+    </ol> <!--Existe um parametro que eu posso colocar em ol que é o type A fica na sequencia A e a asinho na sequencia menor-->
+    <h2>Listas não Ordenadas</h2>
+    <ul TYPE="square"> <!--Opção disc , circle , square ()quadrado -->
+        <li>Pão</li>       <!--◉ Pão-->
+        <li>Leite</li>     <!--◉ Leite-->
+        <li>Tomate</li>    <!--◉ Tomate-->
+        <li>Manteiga</li>  <!--◉ Manteiga-->
+        <li>Arroz</li>     <!--◉ Arroz-->
+        <li>Feijão</li>    <!--◉ Feijão-->
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+        <li>Clipper</li> <!--Aninhamento uma coisa dentro da outra como se fosse um ninho-->
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+   <ol type="a" start="5"> <!--ou um parametro start 5 -->
+    <li>PHP</li>
+    <li>Python</li>
+    <li>JavaScript</li>
+    <li>Kotlin</li> 
+   </ol>
+   <h2>Meus jogos favoritos</h2>
+   <ol>
+    <li>NES</li>
+    <ul> <!--ou mudar o ol para ul-->
+        <li>Mario Bros</li>
+        <ul type="circle">
+            <li>Mrio Bros 3</li>
+            <li>Mario: Lost Levels</li>
+        </ul>
+        <li>Ninja Gaiden</li>
+    </ul>
+    <li>SNES</li>
+    <ul>
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+    </ul>
+    <li>PlayStation</li>
+    <ul>
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+    </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt> 
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> 
+        <dt>CSS</dt> 
+        <dd>Linguagem de marcação para cração do desing de um site.</dd> 
+        <dt>JavaScript</dt> 
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd> 
+    </dl>
+    
+</body>
+</html>
